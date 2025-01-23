@@ -1,4 +1,5 @@
 Contact Management CLI Application
+
 📖 Description
 This modern Command Line Interface (CLI) application allows you to manage a list of contacts stored in a JSON file. With this tool, you can perform essential operations such as listing all contacts, retrieving a contact by ID, adding new contacts, and removing existing ones. The application is built using Node.js and utilizes asynchronous operations for seamless file handling.
 
@@ -19,6 +20,7 @@ index.js --action=list
 Output: Displays all contacts stored in the database.
 
 2. Get a Contact by ID
+   
    https://ibb.co/s1C2mFt
    node index.js --action=get --id=<contact_id>
    Output: Displays details of the contact with the specified ID.
@@ -33,6 +35,7 @@ node index.js --action=get --id=1
    Example:
 
 node index.js --action=add --name="Charlie" --email="charlie@example.com" --phone="555-678-910"
+
 Output:
 
 Adds the new contact to the database.
