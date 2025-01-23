@@ -14,6 +14,7 @@ Use the following commands to interact with the application:
 1. List All Contacts
 
 https://ibb.co/tK6ynffnode
+
 index.js --action=list
 Output: Displays all contacts stored in the database.
 
@@ -21,7 +22,8 @@ Output: Displays all contacts stored in the database.
    https://ibb.co/s1C2mFt
    node index.js --action=get --id=<contact_id>
    Output: Displays details of the contact with the specified ID.
-   Example:
+
+Example:
 
 node index.js --action=get --id=1
 
