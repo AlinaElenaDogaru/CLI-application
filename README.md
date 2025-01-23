@@ -14,9 +14,9 @@ Use the following commands to interact with the application:
 
 1. List All Contacts
 
-https://ibb.co/tK6ynffnode
+https://ibb.co/tK6ynff
 
-index.js --action=list
+node index.js --action=list
 Output: Displays all contacts stored in the database.
 
 2. Get a Contact by ID
